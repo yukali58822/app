@@ -1,0 +1,85 @@
+
+    *{
+        font-family:"標楷體";
+		font-size: 15pt;
+        font-weight:bolder;
+    }
+    header{
+        font-size: 36px;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+
+    .btn{
+        border: 2px solid rgb(119, 13, 49);
+        background-color: rgb(227, 43, 117);
+        color: rgb(170, 7, 61);
+        padding: 2%;
+        text-decoration: none;
+    }
+    
+    .btn:hover{
+        border: 2px solid rgb(119, 13, 49);
+        background-color: rgb(227, 43, 117);
+        color: rgb(255, 255, 255); 
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    h5{
+        color:  #1a187d;
+        text-align: center;
+        
+    }
+    .color {
+        background-color: #ebe8e8;
+    }
+
+    .black-border {
+        border: 2px solid #333; /* 设置边框为1像素宽，颜色为黑色 */
+        padding: 120px; /* 可选，添加内边距来调整内容和边框之间的空间 */
+        margin-left: 50%; /* 设置左边距为20像素 */
+        margin-right: 50%; /* 设置右边距为20像素 */
+        display: flex;
+    }
+    .left-content {
+        flex: 1; /* 左侧内容占据剩余空间 */
+    }
+
+    .right-content {
+        text-align: right
+    }
+    .text_border{
+        border:1px #111c6d solid;
+    }
+
+    .box {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 5px 5px 5px #ccc;
+            border:1px #ccc solid;
+            padding: 120px; /* 可选，添加内边距来调整内容和边框之间的空间 */
+            margin-left: 100px; /* 设置左边距为20像素 */
+            margin-right: 100px; /* 设置右边距为20像素 */
+            margin:left;
+        }
+    .box4 {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 5px 5px 5px #ccc;
+            border:1px #ccc solid;
+            padding: 20px; /* 可选，添加内边距来调整内容和边框之间的空间 */
+            margin-left: 30%; /* 设置左边距为20像素 */
+            margin-right: 30%; /* 设置右边距为20像素 */
+    }
+    .box3 {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 5px 5px 5px #ccc;
+        border:1px #ccc solid;
+        padding: 80px; /* 可选，添加内边距来调整内容和边框之间的空间 */
+        margin-left: 120px; /* 设置左边距为20像素 */
+        margin-right:120px; /* 设置右边距为20像素 */
+}
+

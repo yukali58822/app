@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="static/style2.css">
+    <style>
+        body {
+          /* 設置背景圖片的網路連結 */
+          background-image: url('https://pic.52112.com/180705/JPG-180705_1204/hzfLozYZep_small.jpg');
+        }
+        
+    </style>    
+</head>
+
+<body>
+    <!--Navbar Section Starts Here-->
+    <nav class="navbar">
+        <div class="wrapper">
+            <div class="logo">Pei-Chen-Xie</div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a href="#">首頁</a></li>
+                    <li><a href="#test">Self-Introduction</a></li>
+                    <li><a href="{{url_for('mis')}}">Goals and Objectives</a></li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </nav>
+    <!--Navbar Section Ends Here-->
+
+    <!--About Section Starts Here-->
+    <div class="about">
+        <div class="wrapper box2">
+            <div class="col-2">
+                <img src="static/me.jpg" alt="大頭照" class="img-responsive">
+            </div>
+            <div class="col-2">
+                <br><br><br>
+                <h1 class="about-title">關於我</h1>
+                    <p class="about-subtitle">謝佩宸</p>
+                    <p class="about-subtitle">Email: yukali58822@gmail.com</p>
+                    <br><br>
+                    <a href="#test" class="btn"> Self-Introduction</a>
+                    <a href="{{url_for('mis')}}" class="btn"> Goals and Objectives</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--About Section Ends Here-->
+
+    <!--About Skills Starts Here-->
+    <div class="skills">
+        <div class="wrapper">
+            <h2 class="text-center">Skills</h2>
+            <br>
+            <div class="skill-box">
+                <span class="skill-title">Java</span>
+                
+                <div class="skill-meter">
+                    <div style="background-color:  rgb(137, 174, 255);padding:2%; width: 40%;"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-title">Python</span>
+                
+                <div class="skill-meter">
+                    <div style="background-color:   rgb(137, 174, 255);padding:2%; width: 50%;"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-title">HTML</span>
+                
+                <div class="skill-meter">
+                    <div style=" background-color:  rgb(137, 174, 255);padding:2%; width: 20%;"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+        
+    </div>
+    <!--About Skills Ends Here-->
+    <br><br>
+
+    <!--About  test Starts Here-->
+    <div class="test " id="test">
+        <div class="wrapper">
+            <h2 class="text-center">Self-Introduction</h2>
+        </div>
+
+            
+            <div>
+
+                <div class="col-7 text-center">
+                    <h2 class="test-title text-center">基本資料</h2>
+                        <p class="test-discription">英文姓名：Pei Chen Xie</p>
+                        <p class="test-discription">興趣：追劇、繪圖、寫程式</p>
+                        <p class="test-discription">語言：中文、日語、英語</p>
+                        <br><br>
+                        <div>
+                            <a href="{{url_for('mis')}}" class="btn" > Enter Goals and Objectives</a>
+                        </div>
+                            <br><br><br> 
+                        
+                </div>
+                
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        
+    </div>
+    <!--About test Ends Here-->
+
+    <!--About Footer Starts Here-->
+    <flooter>
+        <div class="wrapper text-right">
+            <p>Copyright © 謝佩宸 . All Rights Reserved.</p>
+        </div>
+    </div>
+    </flooter>
+    <!--About Flooter Ends Here-->
+</body>
+</html>

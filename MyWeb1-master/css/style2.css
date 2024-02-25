@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;/*外距*/
+    padding: 0;/*內距*/
+    font-family: "標楷體";
+    
+}
+
+
+/*wrapper: 將所有內容做排版的設定*/
+.wrapper{
+    border:1px;/*邊框*/
+    width:70%;
+    margin: 0 auto;/*置中*/
+    padding: 1%;
+}
+
+
+/*清除誤入漂浮的物件*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.text-right{
+    text-align: right;/*字置*/
+}
+.text-center{
+    text-align: center;
+}
+
+.img-responsive{
+    width:65%;
+    padding: 5%;
+}
+.img-responsive2{
+    width:88%;
+    padding: 5%;
+}
+
+.btn{
+    border: 2px solid rgb(119, 13, 49);
+    background-color: rgb(227, 43, 117);
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 2px solid rgb(46, 47, 50);
+    background-color: rgb(19, 21, 23);
+    color: rgb(255, 255, 255); 
+}
+
+
+.col-2{
+    border:1px black;/*邊框*/
+    width: 49%;
+    float:left;
+}
+
+
+
+.col-4{
+    border: 1px solid black;
+    width:20%;
+    float:left;
+    margin:2% ;
+}
+
+.col-5{
+    border: 2px solid rgb(207, 183, 6);
+    background-color: rgb(240, 243, 163);
+    width: 70%;
+    margin: 0 auto;/*置中*/
+}
+.col-6{
+    border: 2px solid rgb(85, 11, 128);
+    background-color: rgb(232, 208, 239);
+    width: 70%;
+    margin: 0 auto;/*置中*/
+}
+.col-7{
+    border: 2px solid rgb(128, 19, 31);
+    background-color: rgb(253, 222, 229);
+    width: 70%;
+    margin: 0 auto;/*置中*/
+}
+/* CSS for Nabvbar*/
+.logo{
+    width:20%;
+    font-weight: bold;
+    float:left;
+}
+
+.menu{
+    width:70%;
+    border: 2px rgb(5, 0, 0);
+    float:right;
+}
+
+.menu ul{
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display:inline;/*使li在ul內，以row的方式呈現*/
+    padding: 2%;
+}
+
+.menu ul li a{
+    text-decoration: none;/*去除底線*/
+    font-weight:bold;/*粗體字*/
+}
+
+.menu ul li a:hover{/*游標移置時會顯示... */
+    color: rgb(236, 39, 135);
+    text-decoration: underline;
+}
+
+/* CSS for About Section*/
+.about-title{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    color:rgb(21, 103, 197);
+}
+.about-subtitle{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 3%;
+
+}
+
+/* CSS for Projects Section*/
+.projects a{
+    color:rgb(10, 7, 7);
+    font-weight: bold;
+}
+.projects :hover{
+    color:light;
+}
+.project-box{
+    position:relative;
+}
+
+.project-title{
+    position:absolute;
+    top:80%;
+    padding: 5%;
+}
+
+/* CSS for Skills Section*/
+.skill-box{
+    margin-bottom: 3%;
+}
+
+.skill-title{
+    font-size: 1.3em;
+    line-height: 50px;
+}
+
+.skill-meter{
+    border: 2px rgb(5, 0, 0);
+    width:90%;
+    float:right;
+    background-color: rgb(58, 58, 57);
+}
+
+/* CSS for Test Section*/
+.test-title{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    color:rgb(19, 11, 77);
+}
+.test-discription{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2%;
+    padding: 2%;
+    color:rgb(18, 4, 4);
+}
